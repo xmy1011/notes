@@ -231,10 +231,50 @@ https://juejin.cn/post/7071086182116884487
 
 可以在配置路由时，扩展RouteObject类型，添加meta配置项，在配置项里可以添加一个role列表，代表什么角色可以访问，添加unrole列表代表什么角色不能访问，可以添加一个auth属性，代表是否需要登录验证。这样用户和角色挂钩， 而我们只需要关注角色对应的路由权限即可。
 
-<https://www.yuque.com/lpldplws/web/sh97a9ok4ed3whup?singleDoc># 《Node框架详解》 密码：uur9
 
-<https://www.yuque.com/lpldplws/web/remygq?singleDoc># 《Node实战》 密码：hl1r
 
-<https://www.yuque.com/lpldplws/web/gqimym?singleDoc># 《Node.js 网络HTTP & 部署》 密码：osbv
+2023年1月29日16:31:02
 
-<https://www.yuque.com/lpldplws/web/dxeix9g7n8n6x8no?singleDoc># 《HTTPS汇总》 密码：knmx
+less 的导入问题
+
+import  style from './style.module.less';
+
+import './style.less'
+
+解决博客： https://blog.csdn.net/akjyuanfang123/article/details/120254919
+
+可进一步优化的参考： https://blog.csdn.net/Ws_zqw/article/details/122167820
+
+2023年1月30日12:38:36
+
+其他软件网络连接正常 ，浏览器无法连接网络问题 解决途径： https://www.bilibili.com/video/BV1Tf4y167tg/
+
+2023年1月31日16:02:36
+
+2023年1月31日19:39:44
+
+2023年1月31日21:38:49
+
+​	狂飙第37集 ，洗漱，上楼，打开电脑。
+
+immer: produce
+
+https://zhuanlan.zhihu.com/p/360242077
+
+**总结**
+
+第一个连滚带爬从0搭建的项目框架。
+
+1 使用了 redux react-redux redux-thunk redux-persist对这些有了一个初步的认识。
+
+2 对react-router v6多了一些如何使用的了解。最重要的是对如何进行角色权限控制及发送网络请求时进行token认证是如何做的（使用redux-persist 做用户数据持久化，token存在其中，发送请求时将token放在请求头中）。
+
+3 对customize-cra 了解了一下，但是一般项目使用webpack 进行打包配置，使用config-overrides配置参考资料较少。
+
+**4 以上代码片段皆为最初版，全是问题。仅为以后查阅时做对比参照 **
+
+**5** **至此OVER 。历时7天。**
+
+**项目github地址： https://github.com/xmy1011/xmy1011.github.io/tree/main/react-ts-antd ** 
+
+2023年1月31日23:29:55
